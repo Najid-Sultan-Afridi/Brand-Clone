@@ -3,7 +3,12 @@
     padding: 0;
 }
 
-/* Header */
+body{
+    overflow-x: hidden;
+    /* font-family: sans-serif; */
+}
+
+/*------------------------- Header Starts -------------------------*/
 .hdr{
     /* border: 2px solid black; */
     width: 100vw;
@@ -21,7 +26,7 @@
     height: 100px;
 }
 
-/* Nav-1 */
+/* ----------Nav-1---------- */
 .nav-1{
     display: flex;
     align-items: center;
@@ -97,7 +102,7 @@ form{
     width: 100vw;
 }
 
-/* Nav-2 */
+/* ----------Nav-2---------- */
 .nav-2{
     height: 60px;
     display: flex;
@@ -105,33 +110,34 @@ form{
     justify-content: space-evenly;
 }
 
-.item-5{
+.box-4{
     width: 620px;
     /* border: 2px solid red; */
     height: 25px;
 }
 
-.item-5 ul{
+.box-4 ul{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.item-5 ul li{
+.box-4 ul li{
     list-style: none;
 }
 
-.item-5 ul li a{
+.box-4 ul li a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     color: black;
+    font-family: sans-serif;
 }
 
-.item-6-7{
+.box-5{
     display: flex;
 }
 
-.item-6{
+.item-5{
     width: 124px;
     /* border: 2px solid red; */
     height: 25px;
@@ -141,7 +147,7 @@ form{
     font-size: 15px;
 }
 
-.item-7{
+.item-6{
     width: 124px;
     /* border: 2px solid red; */
     height: 25px;
@@ -149,4 +155,149 @@ form{
     align-items: center;
     justify-content: center;
     font-size: 18px;
+}
+/*------------------------- Header Ends-------------------------*/
+
+
+/* -----------Hero Section----------- */
+.hero{
+    width: 100vw;
+    height: 700px;
+    border: 2px solid black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 0px;
+    background-color: #f6fafd;
+    font-family: sans-serif;
+}
+
+.hero-child{
+    width: 1180px;
+    height: 400px;
+    border: 2px solid red;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: white;
+}
+
+.sub-cont1{
+    height: 360px;
+    width: 250px;
+    border: 2px solid black;
+}
+
+.sub-cont1 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 250px;
+    height: 40px;
+}
+
+.sub-cont1 ul li{
+    list-style: none;
+    font-size: 16px;
+    color: #1C1C1C;
+    font-family: sans-serif;
+}
+
+.list{
+    padding: 0px 8px;
+}
+
+.list-1{
+    background-color: #e6f1ff;
+    padding: 8px;
+    font-weight: 700;
+}
+
+.sub-cont2{
+    height: 360px;
+    width: 665px;
+    border: 2px solid black;
+}
+
+.sub-cont3{
+    height: 370px;
+    width: 200px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cont3-items{
+    border: 2px solid red;
+    border-radius: 6px;
+}
+
+.cont3-div1{
+    width: 200px;
+    height: 150px;
+    background-color: #e3f0fe;
+}
+
+.cont3-div1 img{
+    float: left;
+    margin-top: 5px;
+}
+
+.cont3-div1 p{
+    margin-top: 12px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.cont3-div1 button{
+    display: block;
+    width: 180px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 12px;
+    border-radius: 6px;
+}
+
+.btn1{
+    background-color: #0d73ff;
+    border: 1px solid;
+    border-color: #0d73ff;
+}
+
+.btn2{
+    background-color: #fafffe;
+    border: 1px solid;
+    border-color: #fafffe;
+}
+
+.cont3-div2{
+    width: 200px;
+    height: 95px;
+    background-color: #f38232;
+    color: white;
+}
+
+.cont3-div2 p{
+    width: 144px;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.cont3-div3{
+    width: 200px;
+    height: 95px;
+    background-color: #56bdc2;
+}
+
+.cont3-div3 p{
+    width: 144px;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-left: 12px;
+    color: white;
 }
