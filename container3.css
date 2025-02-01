@@ -1,0 +1,136 @@
+.Parentcontainer3{
+    /* border: 1px solid black; */
+    width: 100vw;
+    height: 510px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.Childcontainer3{
+    /* border: 1px solid red; */
+    width: 1180px;
+    height: 420px;
+    background-image: url('Container3-Img/Mask\ group.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contChild-subChild{
+    height: 400px;
+    width: 600px;
+    /* border: 1px solid red; */
+}
+
+.contChild-subChild2{
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    width: 440px;
+    height: 140px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.text h2{
+    font-size: 32px;
+    color: white;
+    font-weight: 600;
+    line-height: 38px;
+}
+
+.text p{
+    font-size: 16px;
+    color: white;
+    line-height: 24px;
+    margin-top: 16px;
+}
+
+.feedback{
+    /* border: 1px solid black; */
+    width: 490px;
+    height: 346px;
+    margin-top: 20px;
+    /* margin-left: 25px; */
+    background-color: white;
+    border-radius: 8px;
+}
+
+.feedback h4{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.feedback p{
+    font-size: 16px;
+    color: #1C1C1C;
+    width: 440px;
+    height: 40px;
+    border: 1px solid #cecece;
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+    margin-top: 12px;
+    border-radius: 8px;
+}
+
+.feedback textarea{
+    width: 440px;
+    height: 75px;
+    resize: none;
+    margin-top: 12px;
+    font-size: 16px;
+    color: #8B96A5;
+    font-family: sans-serif;
+    word-spacing: 2px;
+    padding-top: 8px;
+    padding-left: 6px;
+}
+
+.feedback span{
+    width: 206px;
+    height: 40px;
+    border: 1px solid #8B96A5;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding-left: 6px;
+    margin-top: 12px;
+    color: #1C1C1C;
+    border-radius: 6px;
+    position: relative;
+}
+
+.feedback select{
+    position: absolute;
+    margin-top: -42px;
+    margin-left: 250px;
+    border: 1px solid #8B96A5;
+    border-radius: 6px;
+    font-size: 16px;
+    height: 40px;
+    width: 110px;
+}
+
+.feedback button{
+    width: 128px;
+    height: 40px;
+    margin-top: 16px;
+    color: white;
+    font-size: 16px;
+    background-color: #0c76ff;
+    border: 1px solid #0c76ff;
+    border-radius: 6px;
+}
+
+.sub-feedback{
+    margin-top: 20px;
+    margin-left: 20px;
+}

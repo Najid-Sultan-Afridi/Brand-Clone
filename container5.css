@@ -1,0 +1,53 @@
+.Parentcontainer5{
+    border: 1px solid black;
+    height: 300px;
+    width: 100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.Childocontainer5{
+    border: 1px solid red;
+    height: 256px;
+    width: 1180px;
+}
+
+.cont5-para{
+    color: Childocontainer5;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.cont5sub-child{
+    border: 1px solid black;
+    width: 1180px;
+    height: 200px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.blogs{
+    border: 1px solid red;
+    height: 200px;
+    width: 280px;
+}
+
+.blogs img{
+    background-color: black;
+    opacity: 0.85;
+}
+
+.blog-para{
+    font-size: 16px;
+    width: 215px;
+    height: 44px;
+    font-weight: 500;
+    color: #1C1C1C;
+    margin-top: 14px;
+    margin-left: 14px;
+}

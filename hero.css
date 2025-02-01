@@ -1,8 +1,8 @@
 /* -----------Hero Section----------- */
 .hero{
     width: 100vw;
-    height: 700px;
-    border: 2px solid black;
+    height: 500px;
+    /* border: 2px solid black; */
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -14,7 +14,8 @@
 .hero-child{
     width: 1180px;
     height: 400px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    border: 1px solid rgb(212, 212, 212);
     margin-top: 50px;
     display: flex;
     align-items: center;
@@ -26,7 +27,7 @@
 .sub-cont1{
     height: 360px;
     width: 250px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .sub-cont1 ul{
@@ -57,13 +58,13 @@
 .sub-cont2{
     height: 360px;
     width: 665px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .sub-cont3{
     height: 370px;
     width: 200px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,7 +72,7 @@
 }
 
 .cont3-items{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     border-radius: 6px;
 }
 

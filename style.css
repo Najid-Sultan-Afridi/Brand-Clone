@@ -6,6 +6,11 @@
 body{
     overflow-x: hidden;
     /* font-family: sans-serif; */
+    background-color: #f6fafd;
+}
+
+button{
+    cursor: pointer;
 }
 
 /*------------------------- Header Starts -------------------------*/
@@ -160,7 +165,7 @@ form{
 
 
 /* -----------Hero Section----------- */
-.hero{
+/* .hero{
     width: 100vw;
     height: 700px;
     border: 2px solid black;
@@ -300,4 +305,4 @@ form{
     margin-top: 12px;
     margin-left: 12px;
     color: white;
-}
+} */
