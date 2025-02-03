@@ -45,8 +45,13 @@
     font-family: sans-serif;
 }
 
+.sub-cont1 ul li:hover{
+    background-color: #e6f1ff;
+}
+
 .list{
     padding: 0px 8px;
+    cursor: pointer;
 }
 
 .list-1{
