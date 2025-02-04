@@ -100,6 +100,14 @@ form{
     justify-content: space-evenly;
 }
 
+.hamburger{
+    color: black;
+    font-weight: 900;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: none;
+}
+
 .box-4{
     width: 620px;
     /* border: 2px solid red; */
@@ -147,3 +155,35 @@ form{
     font-size: 18px;
 }
 /*------------------------- Header Ends-------------------------*/
+
+
+
+
+
+/* -------------------------------------------Media Queries Start------------------------------------------- */
+
+
+
+@media screen and (max-width:1200px){
+    .nav-1{
+        justify-content: space-between;
+    }
+
+    .box-2{
+        display: none;
+    }
+}
+
+@media screen and (max-width:810px){
+    .nav-2{
+        justify-content: space-between;
+    }
+    
+    .hamburger{
+        display: block;
+    }
+    
+    .box-4{
+        display: none;
+    }
+}

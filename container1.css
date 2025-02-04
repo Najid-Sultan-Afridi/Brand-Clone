@@ -81,3 +81,29 @@
     border-radius: 28px;
     padding: 4px 12px;
 }
+
+
+
+
+
+/* -------------------------------------------Media Queries Start------------------------------------------- */
+
+
+
+@media screen and (max-width:1208px){
+    .Childcontainer1{
+        width: 850px;
+    }
+
+    .product{
+        width: 212px;
+    }
+
+    .product1{
+        display: none;
+    }
+
+    .product2{
+        display: none;
+    }
+}

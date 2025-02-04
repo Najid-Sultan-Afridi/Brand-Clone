@@ -146,3 +146,33 @@
     margin-left: 12px;
     color: white;
 }
+
+
+
+
+
+/* -------------------------------------------Media Queries Start------------------------------------------- */
+
+
+
+@media screen and (max-width:1208px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .hero{
+        justify-content: center;
+    }
+
+    .hero-child{
+        width: 850px;
+    }
+
+    .sub-cont1{
+        display: none;
+    }
+
+    .sub-cont3{
+        display: none;
+    }
+}

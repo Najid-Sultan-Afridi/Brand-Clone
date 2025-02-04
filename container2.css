@@ -77,3 +77,30 @@
     height: 128px;
     width: 225px;
 }
+
+
+
+
+
+/* -------------------------------------------Media Queries Start------------------------------------------- */
+
+
+@media screen and (max-width:1208px){
+    .contChild{
+        width: 850px;
+    }
+
+    .sub-subChild1{
+        display: none;
+    }
+
+    .sub-subChild2{
+        display: none;
+    }
+}
+
+@media screen and (max-width:856px){
+    .lft1{
+        display: none;
+    }
+}
